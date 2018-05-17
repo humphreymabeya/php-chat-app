@@ -1,0 +1,150 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+body{
+    width: 800px;
+    margin: 20px auto;
+    background: fuchsia;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+html{
+    background: hotpink;
+}
+img{
+    border: 5px solid black;
+    margin-right: 15px;
+    border-radius: 50%;
+    width: 150px;height: 150px;
+    -moz-box-shadow:2px 2px 2px #888;
+    -webkit-box-shadow:2px 2px 2px #888;
+    box-shadow:2px 2px 2px #888;
+    
+}
+li a, .button{
+    text-decoration: none;
+}
+li a:hover, .button:hover{
+    color: white; 
+}
+.appname{
+    text-align: center;
+    background:blueviolet;
+    color: solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 5px;
+}
+.fieldname{
+    width: 120px;
+    float: left;
+}
+.main{
+    margin-left: 50px;
+}
+.info{
+    background: lightgreen;
+    color: blue;
+    border: 3px solid green;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.menu li, .button{
+    display: inline-block;
+    padding: 4px 6px;
+    border: 3px solid black;
+    background: forestgreen;
+    color: midnightblue;
+    margin-right: 8px;
+    border-radius: 5px;
+    -moz-box-shadow:2px 2px 2px #888;
+    -webkit-box-shadow:2px 2px 2px #888;
+    box-shadow:2px 2px 2px #888;
+    font-size: 20px;
+    text-align: center;
+    /* margin-left: 40px; */
+}
+.menu{
+    margin-left: 90px;
+    margin-right: auto;
+    /* float: center; */
+}
+.profile{
+    margin-left: 60px;
+}
+.profile_picture{
+    margin-left: 100px;
+}
+.center-button{
+    margin-left: 100px;
+}
+.subhead{
+    font-weight: bold;
+}
+.taken, .error{
+    color: red;
+}
+.available{
+    color: darkgreen;
+}
+.whisper{
+    font-style: italic;
+    color: #006600;
+}
+#logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 127px;
+    font-style: italic;
+}
+/* added code */
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid blue;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+
+input:focus {
+    border: 2px solid #3498DB;
+    box-shadow: none;
+}
+input[type=submit]{
+    border: 2px solid transparent;
+    background: #3498DB;
+    color: solid black;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    margin-left: -5px;
+}
+input[type=submit]:hover{
+    background-color: #2980B9;
+}
+textarea{
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    background: green;
+    color: white;
+}

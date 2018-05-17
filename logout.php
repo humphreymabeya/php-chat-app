@@ -6,7 +6,7 @@ if(isset($_SESSION['user'])){
           "<a href = 'index.php'>Click here</a> to refresh the screen.";
 }
 else echo "<div class = 'main'><br>".
-            "You cannot logout because you are not logged in";
+            "You cannot logout because you are not logged in!!";
 ?>
 <br><br></div>
 </body>
